@@ -27,6 +27,7 @@ export const ProductDetailContainer = styled.div`
     margin: 0;
     font-size: 1.3rem;
     background-color: #fff;
+    color: #85b4ff;
   }
   & .image-container {
     display: flex;
@@ -37,9 +38,18 @@ export const ProductDetailContainer = styled.div`
     padding: 0;
     background-color: #fff;
     mask-image: linear-gradient(rgba(255, 255, 255, 0.9) 70%, transparent);
+    animation: fadeIn 3s;
     & img {
       max-height: 405px;
       object-fit: contain;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
     }
   }
   & .image-container__nutri-score {
@@ -55,6 +65,7 @@ export const ProductDetailContainer = styled.div`
   & .product-info {
     padding: 0 10px;
     border-top: 2px solid ${colors[200]};
+    animation: fadeIn 3s;
   }
   & .product-details {
     width: 100%;
@@ -124,7 +135,6 @@ export const ProductDetailContainer = styled.div`
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     & h1 {
       font-size: 2rem;
-      color: ${colors[400]};
     }
     & .image-container__nutri-score {
       height: 70px;
