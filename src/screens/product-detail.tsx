@@ -105,8 +105,8 @@ const ProductDetail = () => {
             </div>
           </li>
         </ul>
-        <div style={{ height: "60%" }}>
-          <p className="accordion-title">
+        <div className="product-ingredients__container">
+          <p className="product-ingredients__label">
             <strong>Ingredientes :</strong>
           </p>
           <p className="product-ingredients">{data.product.ingredients}</p>

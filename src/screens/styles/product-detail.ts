@@ -113,12 +113,12 @@ export const ProductDetailContainer = styled.div`
   }
   @media screen and (min-width: 1024px) {
     width: 100%;
-    max-width: 85vw;
+    max-width: 90vw;
     display: grid;
     grid-template-columns: 45% 55%;
     align-items: center;
     margin: 50px auto;
-    padding: 50px;
+    padding: 30px 10px;
     border-radius: 20px;
     background-color: #fff;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
@@ -177,8 +177,14 @@ export const ProductDetailContainer = styled.div`
     & .image-container {
       mask-image: none;
     }
+    & .product-ingredients__container {
+      height: 60%;
+      padding: 50px;
+      max-width: 90%;
+    }
   }
   @media screen and (min-width: 2560px) {
+    max-width: 80vw;
     & .product-info {
       grid-template-columns: 50% 50%;
     }
