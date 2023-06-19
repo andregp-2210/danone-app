@@ -56,6 +56,5 @@ A continuación una breve lista de las tecnologías usadas en el proyecto sin em
 
 - Notas: 
     - Todas las pantallas son completamente responsivas.
-    - Se agregaron algunas líneas para mejorar el CEO de la aplicación.
 
 

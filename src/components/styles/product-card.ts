@@ -63,7 +63,7 @@ export const ProductCardContainer = styled.article`
     max-width: 350px;
     width: 350px;
     & .image-container {
-      margin-top: 60px;
+      margin-top: 50px;
       height: 225px;
       max-height: 225px;
       max-width: 325px;

@@ -37,6 +37,11 @@ const ProductDetail = () => {
       toast.error("Error al cargar el producto");
     }
   }, [error]);
+  useEffect(() => {
+    if (!loading && !error && data) {
+      document.title = data.product.name + " - Danone";
+    }
+  }, [data, loading, error]);
 
   if (loading || error)
     return (
@@ -44,7 +49,6 @@ const ProductDetail = () => {
         <Skeleton variant="rectangular" width="100%" height="100%" />
       </LoaderContainer>
     );
-  if (error) return <p>Error : {}</p>;
 
   return (
     <ProductDetailContainer>

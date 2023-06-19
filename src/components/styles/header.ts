@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const HeaderContainer = styled.nav`
-  width: 100vw;
+  max-width: 100vw;
   background-color: #fff;
   & .header-items-container {
     display: flex;
