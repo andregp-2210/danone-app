@@ -53,6 +53,7 @@ A continuación una breve lista de las tecnologías usadas en el proyecto sin em
 
 - Luego continué con el buscador, y la selección de calorías diarias, para este último decidí mostrar un calendario en el cuál se podía ingresar por fecha la cantidad de calorías y el calendario mostraría un check verde sólo para los días en los que se haya ingresado un valor para la caloría diaria.
 
+- En el [siguiente enlace](https://spontaneous-florentine-403e41.netlify.app/) podrán ver la una versión de la página desplegada, usando netlify como servidor.
 
 - Notas: 
     - Todas las pantallas son completamente responsivas.

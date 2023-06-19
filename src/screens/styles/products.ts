@@ -18,11 +18,6 @@ export const ProductLoaderContainer = styled.div`
       grid-template-columns: 50% 50%;
     }
   }
-  @media screen and (min-width: 1024px) {
-    & div {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
   @media screen and (min-width: 1440px) {
     & div {
       grid-template-columns: repeat(3, 1fr);
