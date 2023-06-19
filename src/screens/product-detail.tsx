@@ -81,25 +81,25 @@ const ProductDetail = () => {
       <div className="product-info">
         <ul className="product-details">
           <li>
-            <p>Disponible en :</p>
+            <p>Disponible en:</p>
             <div className="product-info__circle">
               <strong>{data.product.availableIn}</strong>
             </div>
           </li>
           <li>
-            <p>Valor energético :</p>
+            <p>Valor energético:</p>
             <div className="product-info__circle">
               <strong>{data.product.energeticValue}</strong>
             </div>
           </li>
           <li>
-            <p>Grasas :</p>
+            <p>Grasas:</p>
             <div className="product-info__circle">
               <strong>{data.product.fats}</strong>
             </div>
           </li>
           <li>
-            <p>Hidratos de carbono :</p>
+            <p>Hidratos de carbono:</p>
             <div className="product-info__circle">
               <strong>{data.product.carbohydrates}</strong>
             </div>
@@ -107,7 +107,7 @@ const ProductDetail = () => {
         </ul>
         <div className="product-ingredients__container">
           <p className="product-ingredients__label">
-            <strong>Ingredientes :</strong>
+            <strong>Ingredientes:</strong>
           </p>
           <p className="product-ingredients">{data.product.ingredients}</p>
           {data.product.ecologicalAgriculture && (

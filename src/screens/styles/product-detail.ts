@@ -83,7 +83,7 @@ export const ProductDetailContainer = styled.div`
     align-items: center;
     width: 80px;
     height: 80px;
-    border: 1px dashed ${colors[200]};
+    border: 3px dashed ${colors[200]};
     border-radius: 50%;
     font-weight: 900;
     font-size: 0.9rem;
