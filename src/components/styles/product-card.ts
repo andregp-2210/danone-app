@@ -20,8 +20,13 @@ export const ProductCardContainer = styled.article`
     height: 200px;
     max-height: 200px;
     max-width: 300px;
+    transition: all .2s ease-in-out;
     & img {
       object-fit: contain;
+    }
+    &:hover {
+      object-fit: contain;
+      transform: scale(1.1);
     }
   }
   & h4 {
