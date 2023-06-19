@@ -111,7 +111,7 @@ export const ProductDetailContainer = styled.div`
   }
   @media screen and (min-width: 768px) {
   }
-  @media screen and (min-width: 1024px) {
+  @media screen and (min-width: 1440px) {
     width: 100%;
     max-width: 1800px;
     display: grid;
