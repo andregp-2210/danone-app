@@ -124,6 +124,7 @@ export const ProductDetailContainer = styled.div`
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
     & h1 {
       font-size: 2rem;
+      color: ${colors[400]};
     }
     & .image-container__nutri-score {
       height: 70px;
